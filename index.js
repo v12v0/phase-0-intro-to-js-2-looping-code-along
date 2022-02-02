@@ -1,20 +1,13 @@
-
-const names = ["Guadalupe", "Ollie", "Aki"]
-const events = ["Surprise"]
-
-function writeCards(names, events){
+function writeCards(names, events) {
     let messages = []
     for (let i = 0; i < names.length; i++) {
         messages.push(`Thank you, ${names[i]}, for the wonderful ${events} gift!`)
     }
-    return messages;
+    return messages
 }
 
-
-function countDown(positiveNumber){
-    while (positiveNumber >= 0) {
-        positiveNumber--;
-        console.log(positiveNumber);
-            
+function countDown(number) {
+    while (number >= 0 ) {
+        console.log(number--);
     }
 }
